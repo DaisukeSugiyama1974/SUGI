@@ -1,0 +1,21 @@
+{
+    "description": "SUGI",
+    "version": "0.0.1",
+    "includePath": [
+        "SUGI_SRC/QPROTOSRC",
+        "SUGI_SRC/QRPGLESRC"
+    ],
+    "repository": "git@github.com:DaisukeSugiyama1974/SUGI2.git",
+    "objlib": "&verlibsugi",
+    "curlib": "*CRTDFT",
+    "extensions": {
+        "arcad": {
+            "code": "SUGI",
+            "libraryPrefix": "SUGI",
+            "iasp": "*SYSBAS",
+            "validated": true
+        }
+    },
+    "buildCommand": "elias compile {branch}",
+    "compileCommand": "elias compile {branch} -f {filename}"
+}
