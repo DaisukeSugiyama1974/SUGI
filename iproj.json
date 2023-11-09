@@ -5,7 +5,7 @@
         "SUGI_SRC/QPROTOSRC",
         "SUGI_SRC/QRPGLESRC"
     ],
-    "repository": "git@github.com:DaisukeSugiyama1974/SUGI2.git",
+    "repository": "git@github.com:DaisukeSugiyama1974/SUGI.git",
     "objlib": "&verlibsugi",
     "curlib": "*CRTDFT",
     "extensions": {
